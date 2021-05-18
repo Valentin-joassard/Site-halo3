@@ -21,7 +21,7 @@ figure figcaption {
 
 figure figcaption h1 {
   margin: 0;
-  color:aliceblue;
+  color: aliceblue;
 }
 
 main {
@@ -76,6 +76,10 @@ main section article a {
   display: flex;
 }
 
+.conteneur article h2 {
+  margin-left: 2vw;
+}
+
 .conteneur2 img {
   width: 50%;
   margin-right: 3vw;
@@ -84,6 +88,10 @@ main section article a {
 .conteneur2 p {
   margin-left: 3vw;
   margin-right: 2vw;
+}
+
+.conteneur2 article h2 {
+  margin-left: 3vw;
 }
 
 /* img.Left {
@@ -106,7 +114,6 @@ footer h4 {
 
 @media screen and (max-width: 990px) {
   main section {
-  
     width: 100vw;
     margin: 0vw;
     /* border: 1px solid black;
